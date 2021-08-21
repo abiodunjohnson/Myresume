@@ -1,20 +1,24 @@
-.html {
+html {
   background-color: #000000;
 }
 
-.body {
-  background-color: #000000 !important;
+body {
+  background-color: #000000;
 }
 
 .resume {
-  background-color: #000000;
+  /* background-color: #000000; */
 
   /* height: 34rem; */
 }
 
 .container {
   background-color: #ffffff;
-  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 5px 10px #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .header_text {
@@ -30,8 +34,19 @@
   height: 8rem;
 }
 
+.header_skill:after {
+  display: block;
+  height: 2px;
+  background: #007bff;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .links {
-  padding-left: 08rem;
+  padding-left: 03rem;
 }
 
 .company_link {
@@ -117,4 +132,8 @@
 .form_button {
   width: 20%;
   text-align: center;
+}
+
+form {
+  padding-bottom: 10px;
 }
